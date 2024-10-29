@@ -33,6 +33,9 @@ git clone https://github.com/GuiOFICINA/OFICINASUFICIENCIA.git.
 ```
 - Pressione Enter para executar o comando. Isso criará uma cópia local do repositório em seu diretório.
 
+## Pré-Requisito
+- Node >=6.9.0
+
 ## Uso & Execução
 - Com o projeto aberto no VSCode execute os seguintes comandos:
 ```sh
@@ -51,7 +54,7 @@ cd ../SERVIDOR
 node servidor.js
 ```
 
-** Em outro terminal continue com os seguintes comandos: **
+### Em outro terminal continue com os seguintes comandos: 
 
 ```sh
 cd ../CLIENTES/Applicacao
