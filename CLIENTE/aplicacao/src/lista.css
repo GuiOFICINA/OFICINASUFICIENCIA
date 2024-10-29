@@ -1,0 +1,198 @@
+.l-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+.l-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.l-header {
+  color: #1e293b;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.l-logout-button {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.l-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.l-input-group {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.l-input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+
+.l-input:focus,
+.l-textarea:focus {
+  border-color: #3b82f6;
+}
+
+.l-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  font-size: 1rem;
+  min-height: 100px;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+
+.l-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #3b82f6;
+  color: white;
+}
+
+.l-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.l-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.l-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.l-card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.l-card-description {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.l-button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.l-edit-button {
+  background-color: #10b981;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease;
+}
+
+.l-delete-button {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease;
+}
+
+.l-loading {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 0.875rem;
+}
+
+#id_textarea {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .l-container {
+    padding: 1rem;
+  }
+  
+  .l-header {
+    font-size: 2rem;
+  }
+  
+  .l-form {
+    padding: 1rem;
+  }
+  
+  .l-card {
+    padding: 1rem;
+  }
+  
+  .l-card-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .l-button-group {
+    width: 100%;
+  }
+  
+  .l-edit-button,
+  .l-delete-button {
+    flex: 1;
+  }
+}
