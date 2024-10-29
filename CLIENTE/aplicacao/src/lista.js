@@ -40,7 +40,8 @@ class Lista extends React.Component {
     console.log(this.state.token);
     axios.get('http://localhost:8080/tarefas', {
       headers: {
-        'token': this.state.token
+        'token': this.state.token,
+        'usuarioId': this.state.usuario
       }
     }).then((res) => {
       this.setState({

@@ -164,7 +164,8 @@ aplicacao.post("/apagar-tarefa", (req, res) => {
 });
 
 aplicacao.get("/tarefas", (req, res) => {
-  tarefa.find()
+  const usuarioId = req.headers['usuarioid'];
+  tarefa.find({ usuarioId:usuarioId})
     .then((data) => {
       res.status(200).json({
         message: "Tarefas encontradas!",
