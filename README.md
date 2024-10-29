@@ -55,7 +55,7 @@ node servidor.js
 ### Em outro terminal continue com os seguintes comandos: 
 
 ```sh
-cd cd CLIENTE\Aplicacao
+cd CLIENTE\Aplicacao
 
 npm start
 ```
