@@ -39,17 +39,15 @@ git clone https://github.com/GuiOFICINA/OFICINASUFICIENCIA.git.
 ## Uso & Execução
 - Com o projeto aberto no VSCode execute os seguintes comandos:
 ```sh
-cd C:/Local/do/arquivo
-
 npm install
 
-cd ../CLIENTES
+cd CLIENTE
 
 npm install
 
 cd ../
 
-cd ../SERVIDOR
+cd SERVIDOR
 
 node servidor.js
 ```
@@ -57,7 +55,7 @@ node servidor.js
 ### Em outro terminal continue com os seguintes comandos: 
 
 ```sh
-cd ../CLIENTES/Applicacao
+cd cd CLIENTE\Aplicacao
 
 npm start
 ```
